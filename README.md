@@ -1,2 +1,3 @@
-# wp_dt
+# WP data type
+
 WP Data Type
