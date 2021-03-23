@@ -1,4 +1,4 @@
-name: Upload Python Package To Pypi
+name: Publish To PyPi
 
 on:
   release:
