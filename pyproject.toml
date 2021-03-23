@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wp_dt"
-version = "0.0.3"
+version = "0.0.4"
 description = "WP Data type"
 authors = ["dev <dev@qiyutech.tech>"]
 license = "AGPL"
