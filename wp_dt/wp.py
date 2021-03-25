@@ -2,7 +2,7 @@ from typing import Optional, List, Tuple
 
 from pydantic import BaseModel, Field
 
-__all__ = ["WPMeta", "WPFAQItem", "WPReadMe"]
+__all__ = ["WPMeta", "WPFAQItem", "WPReadMe", "WPRelease"]
 
 
 class WPMeta(BaseModel):
@@ -36,3 +36,8 @@ class WPReadMe(BaseModel):
     options: Optional[str] = Field(None)
     further_information: Optional[str] = Field(None)
     template_tag: Optional[str] = Field(None)
+
+
+class WPRelease(BaseModel):
+    name: str = Field(..., title="插件名称", description="slug")
+    releases: List[str] = Field([], title="发布版本")
