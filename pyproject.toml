@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wp_dt"
-version = "0.0.5"
+version = "0.0.6"
 description = "WP Data type"
 authors = ["dev <dev@qiyutech.tech>"]
 license = "AGPL"
@@ -9,9 +9,9 @@ repository = "https://github.com/QiYuTechDev/qiyu-api"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.11"
 
-pydantic = ">=1.7,<2.0"
+pydantic = ">=1.9,<2.0"
 
 [tool.poetry.dev-dependencies]
 black = "*"
